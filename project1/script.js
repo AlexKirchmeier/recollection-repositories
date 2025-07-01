@@ -46,6 +46,9 @@ fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vTHnXKfpCWnwV8D3-IFSG0ytB
             // let sentiment = row['Was the experience...'];
 
             let color = (row["Color"]).toString()
+            if (!color) {
+                color = "gray"
+            }
 
             // Add a circleMarker to the map at the latitude and longitude
             L.circleMarker([lat, lng], { color: color }).addTo(map)
