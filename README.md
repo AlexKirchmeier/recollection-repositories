@@ -1,2 +1,2 @@
-# recollection-repositories
-This repository hosts a handful of web maps, used to (re)collect place-based information.
+# Recollection Repositories
+Recollection Repository" web maps, each of which are intended to prompt and store (re)collections of information relevant to an exploration of my relationships to particular spaces. Further information will be added in the coming weeks!
