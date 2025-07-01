@@ -40,11 +40,11 @@ fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vTHnXKfpCWnwV8D3-IFSG0ytB
             // Get the latitude and longitude from the row
             let lat = row['Latitude'];
             let lng = row['Longitude'];
+            // Get the placename and date for the pop-ups
             let placename = row['Place-name'];
             let date = row['Date'];
-            // let experience = row['Share your experience in this place'];
-            // let sentiment = row['Was the experience...'];
 
+            // Get the color for the circleMarker; if invalid, set to gray
             let color = (row["Color"]).toString()
             if (!color) {
                 color = "gray"
